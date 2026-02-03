@@ -22,13 +22,10 @@ Igra se s vremenom postupno ubrzava, čime se povećava razina težine.
 2. Osigurati da su SFML `.dll` datoteke u istom direktoriju kao `.exe`
 
 ### Linux
-1. 
 ### Instalacija ovisnosti
 ```bash
 sudo apt update
 sudo apt install -y g++ make libsfml-dev
-```bash
-2. Pokrenuti izvršnu datoteku iz terminala
-```bash
+
 make
 ./endless_runner
